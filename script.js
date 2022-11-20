@@ -12,7 +12,12 @@ Array.from(buttons).forEach((button)=>{
             str = "";
             document.querySelector('input').value = str;
         }
-        else if(e.target.innerHTML == 'B')
+        else if(e.target.innerHTML == document.querySelector('.const2').innerHTML)
+        {
+            str += '*';
+            document.querySelector('input').value = str;
+        }
+        else if(e.target.innerHTML == document.querySelector('.const1').innerHTML)
         {
             str = str.slice(0,str.length - 1);//str.slice(0,-1);
             document.querySelector('input').value = str;
