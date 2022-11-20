@@ -12,9 +12,9 @@
 }
 .btn
 {
-   height: 50px;
-   width: 50px;
-   margin: 2px;
+   height: 3rem;
+   width: 3rem;
+   margin: 0.15rem;
    border-radius:20px;
    cursor: pointer;
    color: white;
@@ -25,9 +25,9 @@
     box-shadow: none;
 }
 input{
-    width: 218px;
-    height: 50px;
-    font-size: 30px;
+    width: 13.5rem;
+    height: 3rem;
+    font-size: 2rem;
     border-radius: 15px;
     border: 2px solid black;
 }
@@ -43,4 +43,8 @@ input{
 .width
 {
     width: 108px;
+}
+.red
+{
+    background-color: rgb(173, 41, 32);
 }
